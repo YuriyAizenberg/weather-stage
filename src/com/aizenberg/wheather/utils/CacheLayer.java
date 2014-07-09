@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Created by yuriy
  * 7/9/14
  * <p/>
- * Provide access to concurrency "cache" {@link #cacheMap}
+ * Provide access to concurrency "cache" {@link #forecastCache}
  */
 @SuppressWarnings("unchecked")
 public class CacheLayer {
