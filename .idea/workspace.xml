@@ -14,7 +14,10 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d047b44f-945c-447b-b35c-b25088527b74" name="Default" comment="" />
+    <list default="true" id="d047b44f-945c-447b-b35c-b25088527b74" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    </list>
     <ignored path="RssFeed.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -172,10 +175,8 @@
       <file leaf-file-name="WeatherForecastFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/ui/fragment/WeatherForecastFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="13" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="477" max-vertical-offset="952">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="44" column="13" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1122">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,7 +184,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="45" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="7" column="45" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -192,7 +193,7 @@
       <file leaf-file-name="Environment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/Environment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="3" column="14" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -201,7 +202,7 @@
       <file leaf-file-name="LocationHelper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/utils/LocationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="32" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.20392585" vertical-offset="612" max-vertical-offset="5797">
+            <state line="75" column="79" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.4263904" vertical-offset="833" max-vertical-offset="5797">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,7 +213,7 @@
       <file leaf-file-name="INetworkConnectivityStateCallback.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/utils/INetworkConnectivityStateCallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="5" column="17" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -221,7 +222,7 @@
       <file leaf-file-name="Logger.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/utils/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="19" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+            <state line="8" column="19" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -230,7 +231,7 @@
       <file leaf-file-name="LoggerFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/utils/LoggerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="5" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -239,7 +240,7 @@
       <file leaf-file-name="NetworkConnectivityListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/utils/NetworkConnectivityListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
+            <state line="20" column="13" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2924">
               <folding />
             </state>
           </provider>
@@ -248,7 +249,7 @@
       <file leaf-file-name="NullExcludeList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/utils/NullExcludeList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="5" column="13" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -257,7 +258,7 @@
       <file leaf-file-name="HttpClientFactory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/async/HttpClientFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state line="11" column="13" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -362,7 +363,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -490,6 +490,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,6 +571,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -595,19 +609,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -733,7 +734,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3008299" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5249433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -747,6 +747,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3008299" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -815,9 +816,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/custom_view_temp.xml">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -830,9 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/cities.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289" />
       </provider>
       <provider editor-type-id="android-designer">
         <state />
@@ -864,9 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/city_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="42" selection-start="1869" selection-end="1878" vertical-scroll-proportion="-12.16" vertical-offset="376" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="40" column="42" selection-start="1869" selection-end="1878" vertical-scroll-proportion="-12.16" vertical-offset="376" max-vertical-offset="901" />
       </provider>
       <provider editor-type-id="android-designer">
         <state />
@@ -874,9 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/add_city.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="47" selection-start="1942" selection-end="1956" vertical-scroll-proportion="-15.84" vertical-offset="267" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="39" column="47" selection-start="1942" selection-end="1956" vertical-scroll-proportion="-15.84" vertical-offset="267" max-vertical-offset="816" />
       </provider>
       <provider editor-type-id="android-designer">
         <state />
@@ -889,9 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/detail_list_fragment.xml">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -919,16 +910,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/ui/adapter/AbsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="13" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="554" max-vertical-offset="2057">
-          <folding />
-        </state>
+        <state line="55" column="13" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="554" max-vertical-offset="2057" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/forecast_list_item.xml">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -961,9 +948,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/ui/Fragments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="14" column="25" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/async/modules/WeatherModule.java">
@@ -1103,9 +1088,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/ui/fragment/WeatherForecastFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="13" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1122">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,7 +1143,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aizenberg/wheather/utils/LocationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="32" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.20392585" vertical-offset="612" max-vertical-offset="5797">
+        <state line="75" column="79" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.4263904" vertical-offset="833" max-vertical-offset="5797">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
