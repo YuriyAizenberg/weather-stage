@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#ffffff">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="150dp" android:layout_gravity="center"
+            android:orientation="vertical">
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="3">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/txt_time" android:textColor="#000000" android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1">
+            <view android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  class="com.aizenberg.wheather.ui.view.TemperatureView" android:id="@+id/view_morning"
+                  android:layout_weight="1"/>
+            <view class="com.aizenberg.wheather.ui.view.TemperatureView" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:id="@+id/view_day" android:layout_weight="1"/>
+            <view class="com.aizenberg.wheather.ui.view.TemperatureView" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:id="@+id/view_eve" android:layout_weight="1"/>
+            <view class="com.aizenberg.wheather.ui.view.TemperatureView" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:id="@+id/view_night" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <view class="com.aizenberg.wheather.ui.view.TemperatureView" android:layout_width="wrap_content"
+              android:layout_height="match_parent" android:id="@+id/view_min" android:layout_weight="1"/>
+        <view class="com.aizenberg.wheather.ui.view.TemperatureView" android:layout_width="wrap_content"
+              android:layout_height="match_parent" android:id="@+id/view_max" android:layout_weight="1"/>
+        <view android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              class="com.aizenberg.wheather.ui.view.PressureView" android:id="@+id/view_pressure"
+              android:layout_weight="1"/>
+        <view android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              class="com.aizenberg.wheather.ui.view.HumidityView" android:id="@+id/view_hum" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

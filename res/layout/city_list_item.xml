@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#000000">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/txt_name" android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:gravity="center">
+        <view android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              class="com.aizenberg.wheather.ui.view.TemperatureView" android:id="@+id/view"
+              android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:gravity="center">
+        <view android:layout_width="wrap_content" android:layout_height="wrap_content"
+              class="com.aizenberg.wheather.ui.view.PressureView"
+              android:id="@+id/view_pressure"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:gravity="center">
+        <ImageView
+                android:layout_width="@dimen/def_image"
+                android:layout_height="50dp"
+                android:id="@+id/imageView" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="match_parent"
+                  android:layout_weight="1" android:gravity="center" android:id="@+id/linearLayout">
+        <ImageView android:layout_width="@dimen/def_image" android:layout_height="50dp" android:id="@+id/img_wind"
+                   android:src="@drawable/wind_direction" android:scaleType="centerInside"/>
+    </LinearLayout>
+</LinearLayout>

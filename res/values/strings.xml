@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="home">Cities</string>
+    <string name="check_network_connection">Проверьте интернет соединение</string>
+    <string name="pressure">Pressure:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="degree">\u00b0</string>
+
+</resources>

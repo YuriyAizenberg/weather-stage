@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/universal-image-loader-1.9.0-with-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/google-api-client-android-1.18.0-rc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

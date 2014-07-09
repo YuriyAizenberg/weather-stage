@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_gravity="center_horizontal|top"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_height="@dimen/def_image" android:layout_weight="10" android:background="#ffffff"
+            android:orientation="vertical" android:id="@+id/linearLayout">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:layout_weight="1" android:layout_gravity="center"
+                    android:gravity="center">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/img_left" android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="center" android:src="@drawable/ic_back_green"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:layout_weight="1" android:layout_gravity="center"
+                    android:gravity="center">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/txt_title" android:textColor="#000000" android:layout_gravity="center"
+                        android:gravity="center" android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="12sp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:layout_weight="1" android:gravity="center"
+                    android:id="@+id/view_add_city">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/img_right" android:src="@drawable/action_accept"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:id="@+id/main_container"
+    android:layout_height="match_parent"
+    android:layout_weight="1" android:layout_below="@+id/no_internet_layout" android:layout_alignParentLeft="true">
+
+    </FrameLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:id="@+id/no_internet_layout"
+            android:background="#ffffff" android:visibility="gone" android:layout_below="@+id/linearLayout">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_internet"
+                android:id="@+id/textView" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+                android:textColor="#000000"/>
+        <ImageView
+                android:layout_width="@dimen/def_image"
+                android:layout_height="@dimen/def_image"
+                android:id="@+id/imageView" android:layout_centerVertical="true"
+                android:layout_alignParentRight="true" android:src="@drawable/no_internet" android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+    <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar" android:layout_gravity="center" android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+</RelativeLayout>
+
